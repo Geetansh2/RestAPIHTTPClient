@@ -6,7 +6,6 @@ import org.json.JSONObject;
 
 public class TestUtil {
 
-    public static JSONObject responsejson;
 
     public static String getValueByJPath(JSONObject responsejson, String jpath) throws JSONException {
         Object obj = responsejson;
