@@ -33,7 +33,7 @@ public class ProductGETAPITest extends TestBaseBestBuyAPI {
 
   }
     @Test
-    public void getProductsTest() throws IOException, JSONException {
+    public void getProductsTestWithOutHeader() throws IOException, JSONException {
         int t=0;
         domain = prop.getProperty("getPoductDomain");
         apiUrl = prop.getProperty("getProductApi");

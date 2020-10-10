@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8e35bc-c595-4029-b30a-536e39edea3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Config/configBestBuy.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Config/configBestBuy.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Tests/BestBuyApi/ProductGETAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tests/BestBuyApi/ProductGETAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tests/BestBuyApi/ProductGETAPITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tests/BestBuyApi/ProductGETAPITest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ProductGETAPITest.getPorductsTest">
+  <component name="RunManager" selected="TestNG.ProductPOSTAPITest.postProductsTestWithHeaders">
     <configuration name="PostApiTest.postAPITest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAPIHTTPClient" />
       <extension name="coverage">
@@ -75,10 +78,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductGETAPITest.getProductsTestWithOutHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAPIHTTPClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.BestBuyApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.BestBuyApi" />
+      <option name="MAIN_CLASS_NAME" value="Tests.BestBuyApi.ProductGETAPITest" />
+      <option name="METHOD_NAME" value="getProductsTestWithOutHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductPOSTAPITest.postProductsTestWithHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAPIHTTPClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.BestBuyApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.BestBuyApi" />
+      <option name="MAIN_CLASS_NAME" value="Tests.BestBuyApi.ProductPOSTAPITest" />
+      <option name="METHOD_NAME" value="postProductsTestWithHeaders" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProductGETAPITest.getPorductsTest" />
+        <item itemvalue="TestNG.ProductPOSTAPITest.postProductsTestWithHeaders" />
         <item itemvalue="TestNG.PostApiTest.postAPITest" />
+        <item itemvalue="TestNG.ProductGETAPITest.getProductsTestWithOutHeader" />
+        <item itemvalue="TestNG.ProductGETAPITest.getPorductsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +141,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
